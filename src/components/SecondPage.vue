@@ -109,8 +109,6 @@ import useVuelidate from "@vuelidate/core";
 import {
   required,
   alpha,
-  // minLength,
-  // maxLength,
 } from "@vuelidate/validators";
 export default {
   emits: ["toFirstPage", "toLastPage"],
